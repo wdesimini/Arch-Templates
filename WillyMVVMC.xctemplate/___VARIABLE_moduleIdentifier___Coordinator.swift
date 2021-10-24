@@ -27,8 +27,8 @@ extension ___VARIABLE_moduleIdentifier___Coordinator: ___VARIABLE_moduleIdentifi
         view.viewModel = viewModel
         viewModel.coordinator = self
         viewModel.model = model
-        model.viewModel = viewModel
-        viewModel.view = view
+        model.output = viewModel
+        viewModel.output = view
         self.view = view
         self.viewModel = viewModel
         
