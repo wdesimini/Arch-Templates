@@ -8,7 +8,7 @@
 import UIKit
 
 class ___VARIABLE_moduleIdentifier___ViewController: UIViewController {
-    var viewModel: ___VARIABLE_moduleIdentifier___ViewModel!
+    var viewModel: ___VARIABLE_moduleIdentifier___ViewModelInput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
