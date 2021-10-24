@@ -7,29 +7,29 @@
 
 import UIKit
 
-protocol ___VARIABLE_moduleIdentifier___CoordinatorInput: class {
+protocol ___VARIABLE_moduleIdentifier___CoordinatorInput: AnyObject {
     func start___VARIABLE_moduleIdentifier___()
     func stop___VARIABLE_moduleIdentifier___()
 }
 
-protocol ___VARIABLE_moduleIdentifier___CoordinatorOutput: class {
+protocol ___VARIABLE_moduleIdentifier___CoordinatorOutput: AnyObject {
     func resign___VARIABLE_moduleIdentifier___()
 }
 
-protocol ___VARIABLE_moduleIdentifier___ModelInput: class {
+protocol ___VARIABLE_moduleIdentifier___ModelInput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleIdentifier___ModelOutput: class {
+protocol ___VARIABLE_moduleIdentifier___ModelOutput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleIdentifier___ViewInput: class {
+protocol ___VARIABLE_moduleIdentifier___ViewInput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleIdentifier___ViewOutput: class {
+protocol ___VARIABLE_moduleIdentifier___ViewOutput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleIdentifier___ViewModelInput: class {
+protocol ___VARIABLE_moduleIdentifier___ViewModelInput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleIdentifier___ViewModelOutput: class {
+protocol ___VARIABLE_moduleIdentifier___ViewModelOutput: AnyObject {
 }
